@@ -20,7 +20,11 @@ void main() {
   // print(a & b);
 
   // 或运算
-  var a = 10;
-  var b = 2;
-  print(a | b);
+  // var a = 10;
+  // var b = 2;
+  // print(a | b);
+
+  //
+  var a = 8 >> 3;
+  print(a);
 }
