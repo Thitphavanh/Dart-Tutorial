@@ -9,7 +9,7 @@ abstract class IPerson {
   );
 
   String info() {
-    return 'name:$name, age:$name';
+    return 'name:$name, age:$age';
   }
 }
 
@@ -36,7 +36,7 @@ class Teacher implements IPerson {
   );
   @override
   String info() {
-    return 'Teacher -> name:$name, age:$name';
+    return 'Teacher -> name:$name, age:$age';
   }
 }
 
@@ -57,12 +57,12 @@ class Student implements IPerson, ISchool {
   );
   @override
   String info() {
-    return 'Student -> name:$name, age:$name';
+    return 'Student -> name:$name, age:$age';
   }
 
   @override
   String schoolInfo() {
-    return 'School.Student -> name:$name, age:$name, grade: $grade';
+    return 'School.Student -> name:$name, age:$age, grade: $grade';
   }
 }
 
