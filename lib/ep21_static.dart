@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 class People {
   static String name = 'phenomenal';
 
